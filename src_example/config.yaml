@@ -1,0 +1,44 @@
+# config.yaml
+
+# 数据集路径
+root: "../datasets/output"
+
+# 训练的配置
+EPOCHS: 100
+OUT_CLASSES: 1
+idx_number: 20  # 保存测试结果的数量
+batch_size: 32
+
+# 模型配置
+model_name: 
+  - 'unet'          # 0: U-Net
+  - 'unetplusplus'  # 1: U-Net++
+  - 'fpn'           # 2: Feature Pyramid Network (FPN)
+  - 'pspnet'        # 3: Pyramid Scene Parsing Network (PSPNet)
+  - 'deeplabv3'     # 4: DeepLabV3
+  - 'deeplabv3plus' # 5: DeepLabV3+
+  - 'linknet'       # 6: LinkNet
+  - 'manet'         # 7: Multi-scale Attention Network (MAnet)
+  - 'pan'           # 8: Path Aggregation Network (PAN)
+  - 'upernet'       # 9: Unified Perceptual Parsing Network (UPerNet)
+  - 'segformer'     # 10: Segformer
+
+# 编码器模型配置
+encoder_model_name:
+  - 'resnet18'           # 0: ResNet-18
+  - 'resnet34'           # 1: ResNet-34
+  - 'resnet50'           # 2: ResNet-50
+  - 'resnext50_32x4d'    # 3: ResNeXt-50 32x4d
+  - 'resnest50d'         # 4: ResNeSt-50d
+  - 'res2net50_26w_4s'   # 5: Res2Net-50 26w 4s
+  - 'regnetx_002'        # 6: RegNetX-002
+  - 'gernet_s'           # 7: GERNet-S
+  - 'senet154'           # 8: SENet-154
+  - 'densenet121'        # 9: DenseNet-121
+  - 'inceptionresnetv2'  # 10: InceptionResNetV2
+  - 'efficientnet-b0'    # 11: EfficientNet-B0
+  - 'mobilenet_v2'       # 12: MobileNetV2
+  - 'dpn68'              # 13: DPN-68
+  - 'vgg11'              # 14: VGG-11
+  - 'mit_b0'             # 15: Mix Vision Transformer (MiT-B0)
+  - 'mobileone_s0'       # 16: MobileOne-S0

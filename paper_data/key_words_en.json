@@ -1,0 +1,53 @@
+{
+    "keyWords": [
+        "Carburizing",
+        "Carburizing heat treatment",
+        "Solid carburizing",
+        "Liquid carburizing",
+        "Gas carburizing",
+        "Vacuum carburizing",
+        "Plasma carburizing"
+    ],
+    "carburizingResearch": {
+        "processTypes": [
+            "Solid carburizing",
+            "Liquid carburizing",
+            "Gas carburizing",
+            "Vacuum carburizing",
+            "Plasma carburizing"
+        ],
+        "materialTypes": [
+            "High entropy alloys",
+            "Martensitic stainless steels",
+            "Low alloy steels",
+            "High carbon steels",
+            "Tool steels",
+            "Cast irons"
+        ],
+        "applicationFields": [
+            "Automotive industry",
+            "Aerospace",
+            "Machinery manufacturing",
+            "Construction engineering",
+            "Electronic products"
+        ],
+        "performanceParameters": [
+            "Hardness",
+            "Wear resistance",
+            "Toughness",
+            "Fatigue strength",
+            "Corrosion resistance"
+        ],
+        "researchParameters": [
+            "Carburizing temperature",
+            "Carburizing time",
+            "Carbon concentration",
+            "Cooling rate",
+            "Atmosphere composition",
+            "Surface treatment",
+            "Phase transformation temperature",
+            "Residual stress",
+            "Microstructure"
+        ]
+    }
+}
